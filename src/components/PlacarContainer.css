@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'ds-digi';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/ds-digi.TTF');
+}
+
+.view-goals {
+    font-family: 'ds-digi';
+    font-size: 4rem;
+    color: rgb(243, 161, 10);
+    padding: 1rem 1.5rem;
+    background: #000;
+}
