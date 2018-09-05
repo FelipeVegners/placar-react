@@ -4,6 +4,7 @@ import { Button } from 'reactstrap'
 import Time from './Time'
 import Partida from './Partida'
 import InputField from './InputField'
+import Test from './Test'
 
 export default class PlacarContainer extends React.Component {
     constructor() {
@@ -40,6 +41,7 @@ export default class PlacarContainer extends React.Component {
         const estilo = { float: "left", marginRight: "48px", textAlign: "center", color: "#000" }
         return (
             <div className="container">
+            <Test />
               <div className="row">
                 <div className="col-4 text-center">
                     <h3>Casa</h3>
