@@ -2,6 +2,8 @@ import React from 'react';
 
 import PlacarContainer from './PlacarContainer'
 
+const title = 'Placar em React'
+
 const dados = {
     partida: {
         estadio: "Allianz Park",

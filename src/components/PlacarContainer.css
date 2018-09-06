@@ -6,9 +6,12 @@
 }
 
 .view-goals {
+    margin: 0 auto;
     font-family: 'ds-digi';
     font-size: 4rem;
     color: rgb(243, 161, 10);
     padding: 1rem 1.5rem;
     background: #000;
+    width: 100px;
+    border-radius: 5px;
 }

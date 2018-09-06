@@ -38,13 +38,11 @@ export default class PlacarContainer extends React.Component {
 
     render() {
         const { partida, casa, visitante } = this.props
-        const estilo = { float: "left", marginRight: "48px", textAlign: "center", color: "#000" }
         return (
             <div className="container">
-            <Test />
               <div className="row">
                 <div className="col-4 text-center">
-                    <h3>Casa</h3>
+                    <h5>Casa</h5>
                     <Time
                         nome={ casa.nome }
                         gols={ this.state.gols_casa }
@@ -56,7 +54,7 @@ export default class PlacarContainer extends React.Component {
                     <Partida { ...partida }/>
                 </div>
                 <div className="col-4 text-center">
-                    <h3>Visitante</h3>
+                    <h5>Visitante</h5>
                     <Time
                         nome={ visitante.nome }
                         gols={ this.state.gols_visitante }
