@@ -8,7 +8,7 @@ export default class BotaoGol extends React.Component {
     }
     render() {
         return(
-            <Button color="success" onClick={ this.handleClick.bind(this) }>GOL!</Button>
+            <Button className="mt-4" color="primary" onClick={ this.handleClick.bind(this) }>GOL</Button>
         )
     }
 }

@@ -42,7 +42,7 @@ export default class PlacarContainer extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-4 text-center">
-                    <h5>Casa</h5>
+                    <small>Casa</small>
                     <Time
                         nome={ casa.nome }
                         gols={ this.state.gols_casa }
@@ -50,11 +50,11 @@ export default class PlacarContainer extends React.Component {
 
                     />
                 </div>
-                <div className="col-4 text-center">
+                <div className="col-4 text-center d-flex align-items-center">
                     <Partida { ...partida }/>
                 </div>
                 <div className="col-4 text-center">
-                    <h5>Visitante</h5>
+                    <small>Visitante</small>
                     <Time
                         nome={ visitante.nome }
                         gols={ this.state.gols_visitante }
